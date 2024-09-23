@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Jogo da Forca - React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Um jogo de adivinhação de palavras (forca) desenvolvido em **React**, utilizando boas práticas e conceitos avançados como gerenciamento de estado e otimização de performance através de Hooks.
 
-## Available Scripts
+## 🎮 Descrição do Projeto
 
-In the project directory, you can run:
+Este projeto consiste em um jogo de forca, onde o jogador deve adivinhar palavras com base em uma categoria. As funcionalidades incluem:
 
-### `npm start`
+- **Pontuação dinâmica**: o jogador acumula pontos a cada palavra correta.
+- **Gestão de tentativas**: cada erro reduz as chances restantes.
+- **Verificação de letras**: controle das letras já tentadas, sejam corretas ou incorretas.
+- **Categorias de palavras**: palavras são sorteadas aleatoriamente dentro de categorias específicas.
+- **Reinício de jogo**: após vitória ou derrota, o jogador pode tentar novamente com uma nova palavra.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Este projeto foi construído com as seguintes tecnologias:
 
-### `npm test`
+- **React**: biblioteca JavaScript para construção de interfaces de usuário.
+- **Hooks do React**: `useState`, `useEffect`, `useCallback` para gerenciar estados e efeitos colaterais de forma eficiente.
+- **CSS**: para estilização dos componentes.
+- **JavaScript**: para manipulação da lógica do jogo e interação com o DOM.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Funcionalidades
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Iniciar o jogo e gerar uma palavra aleatória.
+- Gerenciamento de tentativas e letras já usadas.
+- Exibição da pontuação e dicas de categorias.
+- Condições de vitória e derrota, com opção de reiniciar o jogo.
+- Interface dinâmica e responsiva.
