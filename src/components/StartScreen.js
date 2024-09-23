@@ -1,13 +1,13 @@
 import "./StartScreen.css";
 
-const StartScreen = () => {
+const GameStart = ({ startGame }) => {
   return (
     <div className="start">
-      <h1>Palavra Secreta</h1>
-      <p>Clique no botão abaixo para começar</p>
-      <button>Começar o Jogo</button>
+      <h1>PALAVRA SECRETA</h1>
+      <p>Clique no botão abaixo para começar a jogar</p>
+      <button onClick={startGame}>Começar jogo</button>
     </div>
   );
 };
 
-export default StartScreen;
+export default GameStart;
